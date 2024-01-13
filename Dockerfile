@@ -1,5 +1,5 @@
 FROM ioiox/php-nginx:7.4-alpine
-LABEL maintainer="stille@ioiox.com"
+LABEL maintainer="lywedo@gmail.com"
 
 ENV INSTALL true
 ENV MODIFY false

@@ -5,13 +5,14 @@ services:
     # image: stilleshan/dujiaoka
     build: .
     environment:
-        - INSTALL=false
+        - INSTALL=true
         # - INSTALL=true
         # - MODIFY=true
+
     volumes:
-      - ./env.conf:/dujiaoka/.env
-      - ./uploads:/dujiaoka/public/uploads
-      - ./storage:/dujiaoka/storage
+      - ../dujiao_volume/env.conf:/dujiaoka/.env
+      - ../dujiao_volume/uploads:/dujiaoka/public/uploads
+      - ../dujiao_volume/storage:/dujiaoka/storage
     ports:
       - 56789:80
     restart: always
@@ -25,10 +26,10 @@ services:
   #     - MYSQL_USER=dujiaoka
   #     - MYSQL_PASSWORD=YOUR_PASSWORD
   #   volumes:
-  #     - ./mysql:/var/lib/mysql
+  #     - ../dujiao_volume/mysql:/var/lib/mysql
 
   redis:
     image: redis:alpine
     restart: always
     volumes:
-      - ./redis:/data
+      - ../dujiao_volume/redis:/data

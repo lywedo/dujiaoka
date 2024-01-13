@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>独角数卡安装程序</title>
+    <title>自动售货机安装程序</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <meta name="renderer" content="webkit">
 
@@ -745,7 +745,7 @@ TkSuQmCC" />
             <div class="form-group">
                 <div class="form-field">
                     <label>网站名称</label>
-                    <input type="title" value="独角数卡" name="title" required="">
+                    <input type="title" value="自动售货机" name="title" required="">
                 </div>
 
                 <div class="form-field">

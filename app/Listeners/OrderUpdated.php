@@ -34,7 +34,7 @@ class OrderUpdated
         $order = [
             'created_at' => date('Y-m-d H:i'),
             'ord_title' => $event->order->title,
-            'webname' => $sysCache['text_logo'] ?? '独角数卡',
+            'webname' => $sysCache['text_logo'] ?? '自动售货机',
             'weburl' => config('app.url'),
             'order_id' => $event->order->order_sn,
             'ord_price' => $event->order->actual_price,

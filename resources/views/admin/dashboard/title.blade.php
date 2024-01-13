@@ -27,9 +27,9 @@
 <div class="dashboard-title card bg-primary">
     <div class="card-body">
         <div class="text-center ">
-            <img class="avatar img-circle shadow mt-1" src="/vendor/dujiaoka-admin/images/logo.jpg">
+            <img class="avatar img-circle shadow mt-1" src="/vendor/dujiaoka-admin/images/">
 
-            <div class="text-center mb-1">
+            <!-- <div class="text-center mb-1">
                 <h1 class="mb-3 mt-2 text-white">独角数卡 V{{ config('dujiaoka.dujiaoka_version', '2.0.0') }}</h1>
                 <div class="links">
                     <a href="https://github.com/assimon/dujiaoka" target="_blank">Github</a>
@@ -39,7 +39,7 @@
                     <a href="http://t.me/dujiaoka" id="telegram-group-link" target="_blank">{{ __('dujiaoka.join_telegram_group') }}</a>
                     <a href="https://dujiaoka.com" id="demo-link" target="_blank">{{ __('dujiaoka.official_website') }}</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

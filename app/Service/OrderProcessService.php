@@ -459,7 +459,7 @@ class OrderProcessService
         $mailData = [
             'created_at' => $order->create_at,
             'product_name' => $order->goods->gd_name,
-            'webname' => dujiaoka_config_get('text_logo', '独角数卡'),
+            'webname' => dujiaoka_config_get('text_logo', '自动售货机'),
             'weburl' => config('app.url') ?? 'http://dujiaoka.com',
             'ord_info' => str_replace(PHP_EOL, '<br/>', $order->info),
             'ord_title' => $order->title,
